@@ -13,7 +13,6 @@ to_date = datetime.today().strftime('%Y-%m-%d')
 current_date = datetime.strptime(from_date, '%Y-%m-%d')
 end_date = datetime.strptime(to_date, '%Y-%m-%d')
 page_size = 100
-
 all_articles = []
 
 # -------------------- FETCH NEWS DATA DAILY -------------------- #
